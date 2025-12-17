@@ -108,6 +108,14 @@ git push -u origin main
 
 -- FROM github to laptop
 
+-- LAPTOP , the EASIEST Way (Keep GitHub Version)
+	git reset --hard origin/main
+	git pull
+	
+	
+	
+
+
 
 
 
