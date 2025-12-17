@@ -53,8 +53,27 @@ NOTE: Then you must commit first.
 git add .
 git commit -m "Initial portfolio"
 
-
+		RESULT:
+		[master 6c30c0f] Initial portfolio
+		 1 file changed, 44 insertions(+)
+ 
+ 
+git branch
+		Step 2: Check Your Current Branch
+		
+		RESULT:
+		* main
 	
 git branch -M main
+		Step 3: If Branch Is master, Rename to main
+		
+git remote -v
+		Step 4: Make Sure Remote Exists
+
 git remote add origin https://github.com/yourname/angular-portfolio.git
+
 git push -u origin main
+
+git add .
+git add "_04githubportfolio CHK.cs"
+
