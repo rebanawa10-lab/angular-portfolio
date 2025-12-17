@@ -72,7 +72,7 @@ git remote -v
 
 git remote remove origin
 		error: remote origin already exists.
-		
+git remote -v		
 git remote add origin https://github.com/rebanawa10-lab/angular-portfolio.git
 
 	
@@ -82,5 +82,32 @@ git add .
 git add "_04githubportfolio CHK.cs"
 git commit -m "Initial portfolio"
 git push -u origin main
+
+-- BROWSER 
+	Load github
+	create repository -> angular-portfolio
+	
+	RESULT:
+		echo "# angular-portfolio" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git branch -M main
+		git remote add origin https://github.com/rebanawa10-lab/angular-portfolio.git
+		git push -u origin main
+
+
+-- BROWSER VERIFY
+	https://github.com/rebanawa10-lab/angular-portfolio.git
+
+-- LAPTOP 	
+	C:\Repos\Docker\04githubportfolio>	git remote remove origin
+	C:\Repos\Docker\04githubportfolio>	git remote add origin https://github.com/rebanawa10-lab/angular-portfolio.git
+	C:\Repos\Docker\04githubportfolio>	git remote -v
+	C:\Repos\Docker\04githubportfolio>	git push -u origin main
+
+
+
+
 
 
