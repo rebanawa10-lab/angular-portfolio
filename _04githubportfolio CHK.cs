@@ -112,13 +112,13 @@ git push -u origin main
 -- LAPTOP: 
 
 	Data Github -> LAPTOP
-		Option A (Easiest – keep GitHub version)
+		Option A (Easiest â€“ keep GitHub version)
 			git reset --hard origin/main
 			git pull
 			
 		Option B (Keep your laptop changes)
 			git add .
-			git commit -m "Resolve merge conflicts"
+			git commit -m "9:50pm  updated laptop, pull data from github"
 			git pull origin main
 
 -- LAPTOP:	
@@ -131,6 +131,7 @@ git push -u origin main
 
 -- 9:37pm  Just updated the github desc, Laptop to pull the latest info here...
 -- 9:47pm  updated laptop, push data to github
+-- 9:50pm  updated laptop, pull data from github
 
 
 
