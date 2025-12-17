@@ -106,6 +106,8 @@ git push -u origin main
 	C:\Repos\Docker\04githubportfolio>	git remote -v
 	C:\Repos\Docker\04githubportfolio>	git push -u origin main
 
+-- FROM github to laptop
+
 
 
 
