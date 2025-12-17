@@ -113,11 +113,13 @@ git push -u origin main
 	git pull
 	
 -- LAPTOP , update Github data.
-
 	git status
 	git add .
 	git commit -m "Update portfolio from laptop"
 	git push origin main
+
+-- 9:37pm  Just updated the github desc, Laptop to pull the latest info here...
+
 	
 	
 
