@@ -108,14 +108,18 @@ git push -u origin main
 
 -- FROM github to laptop
 
--- LAPTOP , the EASIEST Way (Keep GitHub Version)
+-- LAPTOP , get Github data. The EASIEST Way (Keep GitHub Version)
 	git reset --hard origin/main
 	git pull
 	
+-- LAPTOP , update Github data.
+
+	git status
+	git add .
+	git commit -m "Update portfolio from laptop"
+	git push origin main
 	
 	
-
-
 
 
 
