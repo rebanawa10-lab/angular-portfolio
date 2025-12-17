@@ -70,10 +70,17 @@ git branch -M main
 git remote -v
 		Step 4: Make Sure Remote Exists
 
-git remote add origin https://github.com/yourname/angular-portfolio.git
+git remote remove origin
+		error: remote origin already exists.
+		
+git remote add origin https://github.com/rebanawa10-lab/angular-portfolio.git
 
+	
 git push -u origin main
 
 git add .
 git add "_04githubportfolio CHK.cs"
+git commit -m "Initial portfolio"
+git push -u origin main
+
 
