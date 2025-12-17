@@ -108,20 +108,29 @@ git push -u origin main
 
 -- FROM github to laptop
 
--- LAPTOP , get Github data. The EASIEST Way (Keep GitHub Version)
-	git reset --hard origin/main
-	git pull
-	
--- LAPTOP , update Github data.
 
-	git status
-	git add .
-	git commit -m "Update portfolio from laptop"
-	git push origin main
-	
-	
--- 9:41 laptop changes 
+-- LAPTOP: 
 
+	Data Github -> LAPTOP
+		Option A (Easiest – keep GitHub version)
+			git reset --hard origin/main
+			git pull
+			
+		Option B (Keep your laptop changes)
+			git add .
+			git commit -m "Resolve merge conflicts"
+			git pull origin main
+
+-- LAPTOP:	
+
+	Data LAPTOP -> Github 
+		git status
+		git add .
+		git commit -m "Update portfolio from laptop"
+		git push origin main
+
+-- 9:37pm  Just updated the github desc, Laptop to pull the latest info here...
+-- 9:47pm  updated laptop, push data to github
 
 
 
