@@ -4,4 +4,5 @@ import { App } from './app'  ;
 
 export const routes: Routes = [
     { path: '', component: App },
+    // { path: '**', redirectTo: '' }  // fallback
 ];
