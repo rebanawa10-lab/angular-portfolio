@@ -9,7 +9,14 @@ import { Component, signal } from '@angular/core';
   styleUrl: './app.css'
 })
 export class App {
+  
   protected readonly title = signal('angular-portfolio');
+
+  // currentYear = new Date().getFullYear()+ ' Copyright.   ';
+
+  
+
+  currentYear = new Date().getFullYear();
 
  
 }
